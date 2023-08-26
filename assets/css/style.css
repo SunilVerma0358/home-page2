@@ -12,6 +12,15 @@
                 font-family: 'Plus Jakarta Sans'
             }
             
+            .overflow {
+                overflow: hidden;
+            }
+            
+            #myDiv {
+                display: none;
+                text-align: center;
+            }
+            
             #myBtn {
                 display: none;
                 position: fixed;
@@ -254,43 +263,42 @@
             
             .slick-dots li.slick-active button:before {
                 opacity: .75;
-                color: white !important;
+                color: white;
             }
             
             .slick-dots li button:before {
-                color: var(--white) !important;
+                color: var(--white);
             }
             
             .slick-next {
-                right: 0px !important;
+                right: 0px;
             }
             
             .slick-next:before,
             .slick-prev:before {
-                font-size: 0px !important;
                 line-height: 1;
                 opacity: .75;
-                color: black !important;
+                color: black;
                 -webkit-font-smoothing: antialiased
             }
             
             .slick-dots li.slick-active button:before {
-                width: 53px !important;
+                width: 53px;
                 height: 10px;
-                background-color: var(--blue) !important;
+                background-color: var(--blue);
             }
             
             .slick-dots li {
-                margin: -15px 20px !important;
+                margin: -15px 20px;
             }
             
             .slick-dots li button:before {
-                width: 10px !important;
-                height: 10px !important;
+                width: 10px;
+                height: 10px;
                 border-radius: 10px;
-                content: '' !important;
+                content: '';
                 text-align: center;
-                background-color: var(--white) !important;
+                background-color: var(--white);
             }
             
             .abc {
@@ -495,20 +503,20 @@
             /* ----footer---- */
             
             ul li a {
-                color: var(--white-ligth) !important;
+                color: var(--white-ligth);
                 font-weight: 400;
-                font-size: var(--fs-md) !important;
+                font-size: var(--fs-md);
                 position: relative;
             }
             
             ul li a::before {
                 content: '';
                 position: absolute;
-                background: var(--white-ligth) !important;
+                background: var(--white-ligth);
                 ;
                 height: 1px;
                 width: 0%;
-                bottom: 2% !important;
+                bottom: 2%;
                 right: 100%;
                 transition: all 300ms linear;
             }
